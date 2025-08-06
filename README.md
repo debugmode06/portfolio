@@ -13,8 +13,8 @@ This site showcases my projects, skills, and a little about me.
 
 ## 📸 Live Preview
 
-Check it out here 👉 [Your Live Site](https://your-portfolio.vercel.app)
-
+Check it out here 👉 
+(https://portfolio-ten-sooty-fbi3pm9jw9.vercel.app/)
 ## 🛠️ Built With
 
 - HTML5  
