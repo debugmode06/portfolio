@@ -11,12 +11,13 @@ nav {
   top: 10px;
   left: 10px;
   width: 99%;
-  background-color: #140f4b;
-  color: white;
+  background-color: #83e1ef;
+  color: rgb(250, 250, 250);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+  
 
 }
 
@@ -29,12 +30,14 @@ nav ul {
   list-style: none;
   display: flex;
   gap: 25px;
+  font-weight: 500;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: white;
-  font-size: 16px;
+  color: rgb(253, 253, 253);
+  font-size: 18px;
+  
 }
 
 
@@ -42,19 +45,20 @@ nav ul li a {
 body {
   font-family: 'Segoe UI', sans-serif;
   padding-top: 50px;
-  background-color: #0c0e34;
+  /* background-color: #0c0e34; */
+  background-image: url(v915-wit-001.jpg);
 }
 
 footer {
   text-align: center;
   margin-top: 900px;
   padding: 20px;
-  color: aliceblue;
+  color: rgb(40, 41, 42);
 }
 #home {
   padding-left: 60px;
   padding-top: 110px;
-  color: rgb(248, 247, 247);
+  color: rgb(67, 61, 61);
 }
 #two {
   color: rgb(0, 106, 255);
@@ -93,13 +97,12 @@ article {
   border-radius: 50%;
 }
 .social-link :hover {
-  background-color: rgb(14, 14, 50);
   transition: 0.2s ease;
   transform: translateY(-3px );
   filter: brightness(1.2);
 }
 blockquote{
-  color: azure;
+  color: rgb(12, 12, 12);
  margin-left: 700px;
   font-size: large;
   text-align: center;
@@ -109,7 +112,7 @@ blockquote{
 
 }
 .me{
-color: azure;
+color: rgb(100, 102, 102);
 font-size: x-large;
 text-align: center;
 margin-left: 350px;
@@ -123,11 +126,12 @@ margin-top: 85px;
   -ms-user-select: none;
 }
 #about h1{
-  color: rgb(238, 242, 242);
+  color: rgb(14, 14, 14);
   text-align: end;
   margin-right: 150px;
   font-size: 30px;
   padding-top: 90px;
+  font-weight: 200;
   margin-top: 50px;
  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -137,8 +141,7 @@ html{
 }
 
 #skills {
-    background-color: #0c0e34;
-    color: rgb(230, 238, 246);
+    color: rgb(23, 24, 24);
   padding: 60px;
   border-radius: 19px;
   
@@ -150,14 +153,14 @@ html{
   margin-top: 90px;
 }
 .skill-category h3 {
-  color: #f9f5f5;
-  border-bottom: 2px solid #00bcd4;
+  color: #5f5c5c;
+  border-bottom: 3px solid #43bbcb;
   padding-bottom: 5px;
 }
 .skill-category ul {
   list-style-type: square;
   padding-left: 30px;
-  color: aliceblue;
+  color: rgb(95, 97, 99);
   margin-top: 10px;
 }
 #skills h2{
