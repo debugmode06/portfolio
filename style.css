@@ -126,8 +126,24 @@ blockquote {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 20px;
   line-height: 30px;
+  
 
 }
+.my-pic {
+  background: rgb(156, 198, 218);
+  display: inline-flex;
+  align-items: center;
+  overflow: hidden;  
+  position: absolute;  
+  margin-top: -6 0px;
+   width: 350px;   
+  height: 350px;
+  border-radius: 50%; 
+  border: 13px  rgb(146, 147, 145) ;
+  filter: contrast(1.1);
+  border-style: outset;
+}
+
 .edu {
   font-weight: bold;
 }
@@ -145,12 +161,12 @@ blockquote {
 
 #skills {
   color: rgb(1, 8, 8);
-  padding: 60px;
+  padding: 100px;
   border-radius: 19px;
 }
 .skills-grid {
   display: flex;
-  gap: 60px;
+  gap: 50px;
   margin-top: -180px;
   margin-left: 350px;
 }
@@ -196,6 +212,7 @@ html {
   padding: 80px;
   display: inline-block;
 }
+
 
 
 #probar{
@@ -299,3 +316,8 @@ body {
   -ms-user-select: none;
   cursor: url(./cur.png);
 }
+
+
+
+
+
