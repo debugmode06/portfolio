@@ -1,21 +1,21 @@
-# 🌐 My Portfolio Website
+# My Portfolio Website
 
 Welcome to my personal portfolio website!  
 This site showcases my projects, skills, and a little about me.
 
-## 🚀 Features
+# Features
 
-- 🧑‍💻 About Me section
-- 📁 Projects showcase
-- 🛠️ Skills and tools
-- 📫 Contact details
-- 💡 Responsive design (works on all devices)
+-  About Me section
+-  Projects showcase
+-  Skills and tools
+-  Contact details
+-  Responsive design (works on all devices)
 
-## 📸 Live Preview
+# Live Preview
 
 Check it out here 👉 
-(https://portfolio-ten-sooty-fbi3pm9jw9.vercel.app/)
-## 🛠️ Built With
+(https://portfolio-mohan-s.vercel.app/)
+# Built With
 
 - HTML5  
 - CSS3  
@@ -23,4 +23,4 @@ Check it out here 👉
 - Git & GitHub  
 - Vercel (for deployment)
 
-## 📂 Folder Structure
+
