@@ -10,8 +10,7 @@ nav {
   top: 10px;
   left: 10px;
   width: 99%;
-  background-color: #83e1ef;
-  color: rgb(95, 102, 239);
+  background-color: #23c8e1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,16 +44,15 @@ body {
 
 footer {
   text-align: center;
-  margin-top:220px;
+  margin-top: 220px;
   width: 1490px;
   color: rgb(40, 41, 42);
   padding-top: 15px;
-
 }
-footer .copyright{
-   margin-top: 85px;
-   padding-bottom: 10px;
-   font-size: 13px;
+footer .copyright {
+  margin-top: 85px;
+  padding-bottom: 10px;
+  font-size: 13px;
 }
 #home {
   padding-left: 60px;
@@ -62,12 +60,12 @@ footer .copyright{
   line-height: 30px;
   padding-top: 80px;
 }
-#home-info{
-  margin-top:210px;
-
+#home-info {
+  margin-top: 210px;
 }
-
-
+#home-info .word {
+  font-size: 30px;
+}
 article {
   font-size: large;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -88,11 +86,13 @@ article {
 }
 .social-link {
   margin-left: 220px;
-  margin-top: -69px;
-  display:flex;
+  margin-top: -30px;
+  display: flex;
   padding: 10px;
   gap: 15px;
-  
+}
+.social-link a img {
+  width: 35px;
 }
 .social-link :hover {
   transition: 0.2s ease;
@@ -108,7 +108,7 @@ blockquote {
   display: flex;
   margin-top: 50px;
 }
-.me1{
+.me1 {
   color: rgb(100, 102, 102);
   font-size: x-large;
   text-align: center;
@@ -117,8 +117,7 @@ blockquote {
   margin-top: 85px;
   line-height: 30px;
 }
-.me2{
-
+.me2 {
   color: rgb(100, 102, 102);
   font-size: x-large;
   text-align: center;
@@ -126,22 +125,24 @@ blockquote {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 20px;
   line-height: 30px;
-  
-
 }
 .my-pic {
   background: rgb(156, 198, 218);
   display: inline-flex;
   align-items: center;
-  overflow: hidden;  
-  position: absolute;  
+  overflow: hidden;
+  position: absolute;
   margin-top: -60px;
-   width: 350px;   
+  width: 350px;
   height: 350px;
-  border-radius: 50%; 
-  border: 13px  rgb(146, 147, 145) ;
+  border-radius: 50%;
+  border: 13px rgb(146, 147, 145);
   filter: contrast(1.1);
   border-style: outset;
+}
+.my-pic img {
+  width: 550px;
+  height: 550px;
 }
 
 .edu {
@@ -155,7 +156,7 @@ blockquote {
   font-size: 30px;
   padding-top: 200px;
   font-weight: 900;
- 
+
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -192,11 +193,9 @@ blockquote {
   transition: 0.1 ease;
 }
 
-.home img {
+.home-img {
   margin-left: 800px;
   margin-top: -520px;
-  
-  
 }
 
 html {
@@ -213,39 +212,35 @@ html {
   display: inline-block;
 }
 
-
-
-#probar{
+#probar {
   width: 250px;
   height: 300px;
-  background-color:white;
-  margin-top:80px;
-  border: 2px solid white ;
+  background-color: white;
+  margin-top: 80px;
+  border: 2px solid white;
   border-radius: 15px;
   background-position: center;
   background-size: cover;
-  box-shadow: rgba(11, 11, 11, 0.1) 0px 1px 1px 0px inset, rgba(12, 12, 22, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-} 
-#pro-bar{
+  box-shadow: rgba(11, 11, 11, 0.1) 0px 1px 1px 0px inset,
+    rgba(12, 12, 22, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+#pro-bar {
   width: 100%;
   height: 310px;
   display: flex;
   justify-content: space-evenly;
 }
-#probar:hover{
-  padding:70px;
+#probar:hover {
+  padding: 70px;
   transform: translatey(-5px);
-  
 }
-
-
 
 html {
   scroll-behavior: smooth;
 }
 
 .contact-container {
-  
   font-family: Arial, sans-serif;
   margin-top: -80px;
   text-align: center;
@@ -307,7 +302,10 @@ html {
   transition: 0.2s ease;
   transform: translateY(-3px);
 }
-
+.home-img img {
+  width: 500px;
+  height: 500px;
+}
 
 body {
   user-select: none;
@@ -316,8 +314,128 @@ body {
   -ms-user-select: none;
   cursor: url(./cur.png);
 }
-
-
-
-
-
+/* ------------------------------------------------------------ */
+@media (max-width: 480px) {
+  nav {
+    background-color: red;
+    position: fixed;
+    top: 10px;
+    left: 8px;
+    width: 24%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 9px;
+  }
+  nav h1 {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(250, 248, 246);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    font-weight: 500;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 11px;
+  }
+  #home {
+    padding-left: 18px;
+    color: rgb(67, 61, 61);
+    line-height: 15px;
+    font-size: 6px;
+  }
+  #home-info {
+    margin-top: 10px;
+  }
+  article {
+    font-size: 8px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  #home-info .word {
+    font-size: 12px;
+  }
+  .cv {
+    color: white;
+    font-size: 6px;
+    background-color: rgb(9, 186, 9);
+    padding: 2.5px 3px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 1.5px;
+    display: flex;
+  }
+  .social-link {
+    margin-left: 80px;
+    margin-top: 96px;
+    display: flex;
+    gap: 0px;
+  }
+  .social-link a img {
+    width: 16px;
+    border-radius: 5px;
+    margin-top: -106px;
+    margin-left: 10px;
+    display: block;
+  }
+  .edu {
+    font-weight: bold;
+    font-size: 7.8px;
+    margin-top: -2px;
+    color: black;
+  }
+  #about h1 {
+    color: rgb(7, 0, 0);
+    margin-top: -250px;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .my-pic img {
+    width: 120px;
+    height: 120px;
+  }
+  .my-pic {
+    border: none;
+    background-color: transparent;
+    border-radius: none;
+    border-style: none;
+    margin-top: -90px;
+    margin-left: -329px;
+  }
+  blockquote {
+    color: rgb(5, 5, 5);
+    margin-left: 180px;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 6%;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .me1 {
+    color: rgb(100, 102, 102);
+    font-size: 10px;
+    text-align: center;
+    margin-left: 120px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-top: 30px;
+    line-height: 10px;
+  }
+  .me2 {
+    color: rgb(100, 102, 102);
+    font-size: 10px;
+    text-align: center;
+    margin-left: 120px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-top: 8px;
+    line-height: 10px;
+  }
+}
