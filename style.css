@@ -322,7 +322,7 @@ body {
 
 
   nav {
-    background-color: #4b0cea;
+    background-color: #3d91ffcc;
     position: fixed;
     top: 10px;
     left: 1px;
@@ -422,7 +422,7 @@ body {
     border-radius:none;
     border-style:none;
     margin-top: -90px;
-    margin-left: -355px;
+    margin-left: -335px;
 
   }
   blockquote {
