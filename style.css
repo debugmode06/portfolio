@@ -317,7 +317,7 @@ body {
 /* ------------------------------------------------------------ */
 @media (max-width: 480px) {
   body{
-    background-image: none;
+    background-image:url(v915-wit-001.jpg);
     background-repeat: no-repeat;
   }
   nav {
