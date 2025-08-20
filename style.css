@@ -316,12 +316,16 @@ body {
 }
 /* ------------------------------------------------------------ */
 @media (max-width: 480px) {
+  body{
+    background-image: none;
+    background-repeat: no-repeat;
+  }
   nav {
-    background-color: red;
+    background-color: #23c8e1;
     position: fixed;
     top: 10px;
     left: 8px;
-    width: 24%;
+    width: 97%;
     display: flex;
     justify-content: space-between;
     align-items: center;
