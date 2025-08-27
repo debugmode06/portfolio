@@ -414,3 +414,291 @@ body {
  
   background-image: url(./Assert/background.jpg);
 }
+/* ------------------------------------------------------------ */
+@media (max-width: 768px) {
+  body{
+   overflow-x: hidden;  
+  }
+
+
+  nav {
+    background-color: #3d91ffcc;
+    position: fixed;
+    top: 10px;
+    left: 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 5px;
+  }
+  nav h1 {
+    font-size: 11px;
+    font-weight: bold;
+    color: rgb(250, 248, 246);
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    font-weight: 500;
+    flex-wrap: wrap;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(253, 253, 253);
+    font-size: 11px;
+  }
+  #home {
+    padding-left: 18px;
+    color: rgb(67, 61, 61);
+    line-height: 15px;
+    font-size: 6px;
+  }
+  #home-info {
+    margin-top: 10px;
+  }
+  article {
+    font-size: 8px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  #home-info .word {
+    font-size: 12px;
+  }
+  .home-img {
+  width: 500px;
+  height: 500px;
+  display: none;
+}
+  
+  .cv {
+    color: white;
+    font-size: 6px;
+    background-color: rgb(9, 186, 9);
+    padding: 2.5px 3px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 1.5px;
+    display: flex;
+  }
+  .social-link {
+    margin-left: 80px;
+    margin-top: 81px;
+    display: flex;
+    gap: 0px;
+  }
+  .social-link a img {
+    width: 16px;
+    border-radius: 5px;
+    margin-top: -106px;
+    margin-left: 10px;
+    display: block;
+  }
+  .edu {
+    font-weight: bold;
+    font-size: 7.8px;
+    margin-top: -2px;
+    color: black;
+  }
+  #about h1 {
+    color: rgb(7, 0, 0);
+    margin-top: -250px;
+    margin-right: 10px;
+    font-size: 10px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .my-pic img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #8ac9d1;
+    border-style:outset;
+   
+  }
+  .my-pic {
+    border: none;
+    background-color: transparent;
+    border-radius:none;
+    border-style:none;
+    margin-top: -90px;
+    margin-left: -315px;
+
+  }
+  blockquote {
+    color: rgb(5, 5, 5);
+    margin-left: 180px;
+    font-size: 8px;
+    text-align: center;
+    margin-top: 6%;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  .me1 {
+    color: rgb(100, 102, 102);
+    font-size: 10px;
+    text-align: center;
+    margin-left: 120px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-top: 30px;
+    line-height: 10px;
+  }
+  .me2 {
+    color: rgb(100, 102, 102);
+    font-size: 10px;
+    text-align: center;
+    margin-left: 120px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    margin-top: 8px;
+    line-height: 10px;
+  }
+  
+#skills {
+  color: rgb(0, 2, 2);
+  padding: 30px;
+}
+.skills-grid {
+  display:grid;
+  gap: 15px;
+  margin-top:20px;
+  margin-left: 10px;
+}
+.skill-category h3 {
+  color: #2c2828;
+  border-bottom: 3px solid #32b5c7;
+  padding-bottom: 4px;
+  font-size: 12px;
+}
+.skill-category ul {
+  list-style-type: square;
+  padding-left: 30px;
+  color: rgb(67, 68, 70);
+  margin-top: 10px;
+  font-size: 11px;
+}
+#skills h2 {
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 50px;
+}
+#skills .skill-img {
+  width: 150px;
+  height: 150px;
+  display: none;
+}
+#probar {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  margin-top: 15px;
+  border:  solid rgb(251, 248, 248);
+  
+
+  border-radius: 15px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: rgba(11, 11, 11, 0.1) 0px 1px 1px 0px inset,
+    rgba(12, 12, 22, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+#Projects {
+  color: rgb(13, 13, 13);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  margin-top: 5px;
+  padding: 36px;
+
+  
+}
+.project-qoute{
+    font-size: 10px;
+  padding: 1px;
+}
+.contact-container {
+  font-family: Arial, sans-serif;
+  margin-top: -80px;
+  text-align: center;
+  margin-bottom: 90px;
+  margin-left: 20px;
+  justify-items: start;
+}
+
+.contact-title {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  
+}
+
+.contact-description {
+  font-size: 0.8rem;
+  color: #666;
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+.con-info{
+  font-size:15px;
+  margin-left: 25px;
+}
+.contact-form {
+  display: flex;
+  gap: 15px;
+  margin-left: 70px;
+  max-width: 300px;
+
+}
+
+.form-input,
+.form-textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 10px;
+  width:240px ;
+  height: 10px;
+  
+}
+
+.form-textarea {
+  resize: none;
+  height: 120px;
+}
+
+.form-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px;
+  border: none;
+  width: 240px;
+  height:auto;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.social-link2 {
+  padding: 15px;
+  display: flex;
+  gap: 15px;
+  margin-left: 65px;
+}
+
+footer .copyright {
+  margin-top: 20px;
+  font-size: 10px;
+  display: block;
+  margin-left:-1100px;
+}
+footer {
+  display: block;
+  text-align: center;
+  width: 1490px;
+  color: rgb(40, 41, 42);
+  padding-top: 19px;
+}
+html,body{
+  overflow-x: hidden;
+}
+}
