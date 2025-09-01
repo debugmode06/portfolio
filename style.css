@@ -473,14 +473,17 @@ body {
   }
   #home-info {
     margin-top: 10px;
+      margin-left: -5px;
+
   }
   .article {
     font-size: 8px;
     line-height: 11px;
-   
+   margin-left: -5px;
   }
   #home-info .word {
     font-size: 12px;
+    
   }
   .hero-right img {
   width: 80px;        
@@ -497,21 +500,22 @@ body {
 .hero-right{
   margin-top: -25px;
 }
-  
-  .cv {
-    color: white;
-    font-size: 3px;
-    background-color: rgb(9, 186, 9);
-    padding: 1px;
-    padding-bottom: 13px;
-    cursor: pointer;
-    justify-content: center;
-    width: 30px;
-    height: 2px;
-    margin-left: 20px;
-    margin-top: 1.5px;
-    display: flex;
-  }
+
+.cv {
+  display: inline-block;
+  padding: -1px 8px;
+  width: 60px;
+  background: linear-gradient(135deg, #4CAF50, #2E7D32);
+  color: #fff;
+  font-size: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-left: 5px;
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
   .bg-skew {
   position: absolute;
   top: 12%;
@@ -523,10 +527,10 @@ body {
   z-index: -1;
 }
   .social-link-1 {
-    margin-left: 50px;
+    margin-left: 62px;
     margin-top: 81px;
     display: flex;
-    gap: 0px;
+    gap: px;
   }
   .social-link-1 a img {
     width: 15px;
@@ -539,13 +543,14 @@ body {
     width: 15px;
     border-radius: 5px;
     margin-top: -58px;
-    margin-left: -195px;
+    margin-left: -180px;
     display: block;
   }
   .edu {
     font-weight: bold;
     font-size: 7px;
     margin-top: -2px;
+      margin-left: -5px;
     color: black;
   }
   #about h1 {
