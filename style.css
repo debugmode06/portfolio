@@ -486,7 +486,8 @@ body {
   width: 80px;        
   height: 80px;       
   object-fit: cover; 
-  margin-left: 80%; 
+
+  margin-left: 78%; 
  
   background-color: #5a9ff3dc;
   border-radius: 50%;  
@@ -513,7 +514,7 @@ body {
   }
   .bg-skew {
   position: absolute;
-  top: 14%;
+  top: 12%;
  right: -5%;
 
   height: 12%;
