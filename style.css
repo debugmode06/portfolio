@@ -503,7 +503,7 @@ body {
 
 .cv {
   display: inline-block;
-  padding: 0px 7px;
+  padding: -1px 8px;
   width: 62px;
   background: linear-gradient(135deg, #4CAF50, #2E7D32);
   color: #fff;
